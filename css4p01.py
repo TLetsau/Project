@@ -131,8 +131,8 @@ print(f"The number of unique genres in the dataset is: {unique_genres_count}.")
 correlation_matrix = movie_data.corr()
 
 # Print the correlation matrix
-# print("Correlation Matrix:")
-# print(correlation_matrix)
+print("Correlation Matrix:")
+print(correlation_matrix)
 
 # Extract insights
 insight_1 = "There is a positive correlation between 'Rating' and 'Metascore', suggesting that movies with higher ratings tend to have higher Metascores."
